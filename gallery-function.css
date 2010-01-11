@@ -1,0 +1,55 @@
+.gallerypost {
+        background-color:#fff;
+        display: block;
+        hNeight: 300px;
+        margin: 0px 0px 10px 0px;
+        padding: 20px 10px 10px 10px;
+        overflow: hidden;
+        border-bottom: 1px solid #D2C4A2;
+        }
+.gallerypost_body {
+        float: right;
+        width: 430px;
+        margin: 0 20px 0 0;
+        }
+.gallerypost_body p {
+        margin: 50px 0px 0px 0px;
+        }
+.gallerypost_body .entry p {
+        margin: 0px 0px 0px 0px;
+        }
+.gallerypost_body .entry {
+        margin: 0px 0px 0px 0px;
+        }
+.gallerypost_main {
+        width: 690px;
+        }
+.gallerypost_sub {
+        display: block;
+        padding: 210px 0px 0px 10px;
+        }
+.gallerypost_sub {
+        display: block;
+        padding: 210px 0px 0px 10px;
+        }
+.gallerypost_sub p {
+        vertical-align: bottom;
+        margin: 0;
+        }
+.gallerypost_sub_left {
+        width: 220px;
+        display: block;
+        float: left;
+        }
+.gallerypost_sub_right {
+        width: 220px;
+        display: block;
+        float: right;
+        }
+.gallerypost_thumbnail {
+        float: left;
+        }
+.gallerypost_thumbnail img {
+        margin: 0 0 0 10px;
+        color: #000;
+        }

@@ -1,0 +1,26 @@
+/* Required IE fixes
+================================================*/
+/* Serve gif images to IE/Win pre version 7 */
+* html .i1,
+* html .i2 {background-image:url(images/borders.gif);}
+* html .bt,
+* html .bt div,
+* html .bb,
+* html .bb div {background-image:url(images/box.gif);}
+/* Set a height to fix up some rendering issues. */
+* html .i1,
+* html .i3 {height:1px;}
+ 
+/* Give the absolutely positioned box a width (including IE 7)*/
+.one {width:70%;}
+ 
+/* Custom rules for the buttons */
+/* All IE versions need a width */
+.button {width:20em;}
+/* IE 7 does not need these */
+* html .button .i1,
+* html .button .i2 {background:transparent;}
+* html .button .bt,
+* html .button .bt div {background-image:url(images/button.gif);}
+* html .button .bb,
+* html .button .bb div {background-image:url(images/button.gif);}
